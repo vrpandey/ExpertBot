@@ -1,24 +1,3 @@
-
-# expertBot
-
-<h2>Developers </h2>
-
-* Aniruddha Attili (arattili)
-* Venkata Anudeep Varma Datla (vdatla)
-* Shubham Munot (samunot)
-* Vikas Pandey (vrpandey)
-* Toshal Phene (tphene)
-
-[Design Document](https://github.ncsu.edu/vdatla/SEBot/blob/master/DESIGN.md)
-
-[MileStone 2](https://github.ncsu.edu/vdatla/SEBot/blob/master/BOT.md)
-
-[MileStone 3](https://github.ncsu.edu/vdatla/SEBot/blob/master/SERVICE.md)
-
-[MileStone 4](https://github.ncsu.edu/vdatla/SEBot/blob/master/DEPLOY.md)
-
-[MileStone 5](https://github.ncsu.edu/vdatla/SEBot/blob/master/REPORT.md)
-
 Join Slack group using this [link](https://join.slack.com/t/bottest1993/shared_invite/enQtMjc5Nzg5NzgwMzU4LWM4YjUwMGMwYzEwYWVjMjgxYjg5MWI1ZjA1YTRiOGI1YjcyMjliZDAyNTU5ODVlYTFmOWVjZjYzZTJkZmJlNTg)
 
 <h3> Steps to deploy on AWS EC2 </h3>
@@ -86,4 +65,3 @@ Additional Use Case:
   * Type "java"
 * Now the feedback is registered. To verify, the user can try finding experts on java.
   * Type "find" followed by "java"
-

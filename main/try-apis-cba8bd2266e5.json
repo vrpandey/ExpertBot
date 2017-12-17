@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "winged-math-182321",
+  "private_key_id": "cba8bd2266e5f8d74b16badaecbd2a4c4522f1f4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCr61lrhyfshm9A\nu14Tx+Az/ynNHVOdaylpkwHyav2uxNZPIDTFbvdSBHyx4GDbQbB5GTPf/VqsDYxN\n0P1jR5oDOwdp2RFxAWtfmeREpbxivCTBT1NfFHgKZ4CVB7CLvE7bUsBnlFu0Kpp6\nUZ8iydpwnwrGYZBaZcJFHHcRhPuKbP4zu+dFHKu8KlcbVm55HXYdK6J9HqQtFNzu\nP0EAiyYDzrrhaiJcmWxRJZrMNsBff4wBRi2w5fEWEJ2tCRDLwMFHJEvTVR2PaNNS\nxnlH/oJkKaNgjBgN+SwY8cc+rKvq+poImd8/mWK7HwBNwR60WXp4D6+dyiW8OP5a\nqTtOa0rlAgMBAAECggEAQ8+O88TZ0IeuNkAxeWfrXVcWK9uXcY4lRYlAyVe+PENT\nrN4tMnr0fptae+bfDVy5uOph9cW/EAJABymZ6KEDdKbB49RE9ufybEENMq6UwfUo\nIj+hyO0P9DqjEyV3U4axK/1V+wUfrs7nI7wyIsyvpqB05Y7yG1Xr7MqvhG+JsC1r\noSUV5B2AqVLmS131hSOigZI7rWHTmw3Aiej5EmHaAUdK5GD2x2mNQCBk7VCNIBK+\nJ1w/jkTO3P0cFQ6PLzZsMdLlFXjdrIFQE8ONY++ZrnQfAoWUvWlHj16Ua9rdv7dJ\n/1hJrmcnhxI7CYrAIYKWxQAaqV5oqtk73nJJQcF9uQKBgQDhfRvg8u9YItHEW2oF\nRBv0Nek4DY0VJAmzdGQTKbx9m4ScfNvbK/KDVulImW7TmgvdWl4mL3AdGCDwuizK\nG9gwmM4QzBpo6qHj1zgN8zLKpLFRiGbVy4FJCyoeHWUmidvYUAd/TL9h5QEGSiz4\nQDECpUTZk6JLeEHQhbUKrdtGywKBgQDDLpszkTASbVwkZ5VpZO0mWG1I3hMLWjyz\nyeY9wApUyunWVvhKja4iBgs63n1FAN93pel8ZiS1fegjcyQr7kNxj/t814QJvStF\nE3Tln0I5a8oG8wRoMv/KP+OhLunR7RApgExoZjJhgpNKNosK3FBQ7WdZ249chVkY\ne8h60nzPDwKBgQCFTqqhtd3sVEGBfa3TSS3hldG4UsKawgB+OIxFjAIknEGtJl/w\nVi38mfA2/Ia50LO8/IT2vEri2HX4+4gpQIbyTBRfd9sRNc3Z3k4EaUgY537xPdvV\n/4cCgPg4b5ZyT0RKwR19lAj9Ph758fZeGc0fzEdE/nQPfBwkxDeBBcHCOwKBgGNq\nSMkiSY8JPuaYECVnr9dZMQjtfFvK8aJN00VenKSF2kc/cyZeNfTEiVHJ45qTED/c\nNSoUyNvcrrHnwuPRb27XfKwhBfMD9Jcxitgun0eqHHQfsf31BA6bLjF6OMShcBsD\na2e9rim2nZkuYPH+N7aQxZSiXcotba0n13yf28yHAoGAVhpbrSOnJBSu4X0Apgna\n5++5n2ZE4qZBdhE2IgC8wNQLr9j2d4KX5wiSzdFciGhXVSeuwQyEVHiU5vWSqPmc\nNwJQ6qh18SesmryyMGfa4dwxJdf51KGf9HRp09U6T/VjC7SElzLzK7ioJuRlRhQH\np21bsp06SXhVYtcbqmx5YBE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-190@winged-math-182321.iam.gserviceaccount.com",
+  "client_id": "108930314868304325187",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-190%40winged-math-182321.iam.gserviceaccount.com"
+}

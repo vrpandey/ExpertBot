@@ -1,0 +1,55 @@
+---
+- hosts: all
+  strategy: debug
+  vars:
+    username: "{{ username }}"
+    password: "{{ password }}"
+  tasks:
+    - name: Print version
+      debug: msg="https://{{ username | urlencode }}:{{ password | urlencode }}@github.ncsu.edu/vdatla/SEBot.git"
+
+    - name: install python 2
+      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+    -
+      name: Install nodejs
+      apt: pkg=nodejs-legacy state=present update_cache=yes
+      become: true
+    -
+      name: Install elasticsearch
+      apt: pkg=elasticsearch state=present update_cache=yes
+      become: true
+
+    -
+      name: Install npm
+      apt: name=npm state=present update_cache=yes
+      become: true
+    -
+      name: Install forever
+      npm: name=forever state=present global=yes
+      become: true
+    -
+      name: Install git
+      apt: pkg=git state=present update_cache=yes
+      become: yes
+    -
+      name: Pull/clone git repo into a destination
+      git:
+        repo: https://{{ username | urlencode }}:{{ password | urlencode }}@github.ncsu.edu/vdatla/SEBot.git
+        dest: /home/ubuntu/slackbot
+        version: master
+        clone: yes
+        force: no
+
+    - name: Install npmkages
+      npm:
+        path: /home/ubuntu/slackbot/main
+
+    - name: Execute the script
+      command: sh /home/ubuntu/slackbot/main/setup.sh
+    - shell: "(ES_JAVA_OPTS=\"-Xms400m -Xmx400m\" ./elasticsearch-6.0.0/bin/elasticsearch)"
+      async: 2592000
+      poll: 0
+
+    -
+      name: Run app forever
+      command: forever start "/home/ubuntu/slackbot/main/bot.js"
