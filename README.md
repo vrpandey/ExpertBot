@@ -3,11 +3,11 @@
 
 <h2>Developers </h2>
 
-* Aniruddha Attili (arattili)
+
 * Venkata Anudeep Varma Datla (vdatla)
 * Shubham Munot (samunot)
 * Vikas Pandey (vrpandey)
-* Toshal Phene (tphene)
+
 
 [Design Document](https://github.ncsu.edu/vdatla/SEBot/blob/master/DESIGN.md)
 
